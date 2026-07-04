@@ -210,3 +210,56 @@ li a:hover {
     background-color:#5d1f28;
 
 }
+/* ---------- Contact Page ---------- */
+
+.contact-background{
+
+    background-image:url("contact.jpg");
+
+    background-size:cover;
+
+    background-position:center;
+
+    background-repeat:no-repeat;
+
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+
+.contact-box{
+
+    width:650px;
+
+    background-color:rgba(255,255,255,0.90);
+
+    padding:35px;
+
+    border-radius:10px;
+
+}
+
+.contact-box h1{
+
+    text-align:center;
+
+    color:#5d1f28;
+
+}
+
+.contact-box h2{
+
+    color:#8a3a46;
+
+}
+
+.contact-box p{
+
+    line-height:1.6;
+
+}
