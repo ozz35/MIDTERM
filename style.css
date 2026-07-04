@@ -21,3 +21,36 @@ li a {
 li a:hover {
     background-color: #8b2d3b;
 }
+
+.hero{
+    background-image: url("images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero h1{
+
+    color:rgb(36, 9, 9);
+
+    font-size:60px;
+
+}
+.hero h3{
+
+    color:gold;
+
+}
+.hero p{
+
+    color:white;
+
+    font-size:18px;
+
+}
