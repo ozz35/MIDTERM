@@ -1,12 +1,9 @@
 body{
-
     margin:0;
-
     padding:0;
-
     font-family: Arial, sans-serif;
-
 }
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -34,61 +31,91 @@ li a:hover {
 .hero{
 
     background-image: url("aro.jpg");
-
     background-repeat: no-repeat;
-
     background-size: cover;
-
     background-position: center;
 
-    height: 100vh;
+    height:100vh;
 
-    display: flex;
-
-    flex-direction: column;
-
-    justify-content: center;
-
-    align-items: center;
-
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
 }
+
 .hero h1{
-
-    color:rgb(200, 168, 123);
-
+    color:rgb(200,168,123);
     font-size:60px;
-
 }
+
 .hero h3{
-
-    color:rgb(14, 12, 9);
-
+    color:rgb(14,12,9);
 }
+
 .hero p{
-
-    color:rgb(200, 158, 123);
-
+    color:rgb(200,158,123);
     font-size:18px;
-
 }
+
 .hero button{
-
     padding:15px 25px;
-
     font-size:18px;
-
     background-color:#8a3a46;
-
-    color:rgb(200, 153, 123);
-
+    color:rgb(200,153,123);
     border:none;
-
     cursor:pointer;
-
 }
+
 .hero button:hover{
-
     background-color:#8b2d3b;
-
 }
 
+/* ---------- Collection Page ---------- */
+
+.title{
+    text-align:center;
+    margin-top:30px;
+    color:#5d1f28;
+}
+.grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,300px);
+
+    justify-content:center;
+
+    gap:30px;
+
+    padding:40px;
+
+}
+.card{
+
+    border:1px solid lightgray;
+
+    border-radius:10px;
+
+    text-align:center;
+
+    padding:20px;
+
+    box-shadow:0px 2px 10px lightgray;
+
+}
+.card img{
+    width:200px;
+    height:250px;
+}
+
+.card button{
+    background-color:#8a3a46;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    cursor:pointer;
+}
+
+.card button:hover{
+    background-color:#5d1f28;
+}
