@@ -1,3 +1,12 @@
+body{
+
+    margin:0;
+
+    padding:0;
+
+    font-family: Arial, sans-serif;
+
+}
 ul {
     list-style-type: none;
     margin: 0;
@@ -23,34 +32,63 @@ li a:hover {
 }
 
 .hero{
-    background-image: url("images/background.jpg");
+
+    background-image: url("aro.jpg");
+
     background-repeat: no-repeat;
+
     background-size: cover;
+
     background-position: center;
 
     height: 100vh;
 
     display: flex;
+
     flex-direction: column;
+
     justify-content: center;
+
     align-items: center;
+
 }
 .hero h1{
 
-    color:rgb(36, 9, 9);
+    color:rgb(200, 168, 123);
 
     font-size:60px;
 
 }
 .hero h3{
 
-    color:gold;
+    color:rgb(14, 12, 9);
 
 }
 .hero p{
 
-    color:white;
+    color:rgb(200, 158, 123);
 
     font-size:18px;
 
 }
+.hero button{
+
+    padding:15px 25px;
+
+    font-size:18px;
+
+    background-color:#8a3a46;
+
+    color:rgb(200, 153, 123);
+
+    border:none;
+
+    cursor:pointer;
+
+}
+.hero button:hover{
+
+    background-color:#8b2d3b;
+
+}
+
