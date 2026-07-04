@@ -1,9 +1,19 @@
-function calculate()
+function collection()
 {
-    var unit = parseInt(document.getElementById("unit").value);
+    window.location = "products.html";
+}
 
-    if(unit <= 50)
-    {
-        ...
-    }
+function buy()
+{
+    window.location = "order.html";
+}
+
+function confirmOrder()
+{
+    window.location = "confirmation.html";
+}
+
+function home()
+{
+    window.location = "index.html";
 }

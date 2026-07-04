@@ -73,9 +73,15 @@ li a:hover {
 /* ---------- Collection Page ---------- */
 
 .title{
+
     text-align:center;
-    margin-top:30px;
+
+    margin-top:40px;
+
+    margin-bottom:20px;
+
     color:#5d1f28;
+
 }
 .grid{
 
@@ -118,4 +124,89 @@ li a:hover {
 
 .card button:hover{
     background-color:#5d1f28;
+}
+
+/* ---------- Order Page ---------- */
+
+.order{
+
+    width:400px;
+
+    margin:40px auto;
+
+    padding:25px;
+
+    border:1px solid lightgray;
+
+    border-radius:10px;
+
+}
+
+.order input,
+.order textarea{
+
+    width:100%;
+
+    padding:10px;
+
+    margin-bottom:15px;
+
+}
+
+.order button{
+
+    background-color:#8a3a46;
+
+    color:white;
+
+    border:none;
+
+    padding:12px 20px;
+
+    cursor:pointer;
+
+}
+
+.order button:hover{
+
+    background-color:#5d1f28;
+
+}
+
+/* ---------- Confirmation Page ---------- */
+
+.confirmation{
+
+    text-align:center;
+
+    margin-top:60px;
+
+}
+
+.confirmation h2{
+
+    color:#5d1f28;
+
+}
+
+.confirmation button{
+
+    margin-top:20px;
+
+    background-color:#8a3a46;
+
+    color:white;
+
+    border:none;
+
+    padding:12px 25px;
+
+    cursor:pointer;
+
+}
+
+.confirmation button:hover{
+
+    background-color:#5d1f28;
+
 }
